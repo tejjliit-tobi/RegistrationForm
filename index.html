@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Registration Form | Princess Ariane </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
+  </script> 
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Name</span>
+              <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Middlename</span>
+              <input type="text" placeholder="Enter your middle name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Lastname</span>
+              <input type="text" placeholder="Enter your last name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Address</span>
+              <input type="text" placeholder="Enter your present address" required>
+            </div>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="fav-lang-details">
+            <input type="checkbox" name="language" id="lang-dot-1">
+            <input type="checkbox" name="language" id="lang-dot-2">
+            <input type="checkbox" name="language" id="lang-dot-3">
+            <input type="checkbox" name="language" id="lang-dot-4">
+            <input type="checkbox" name="language" id="lang-dot-5">
+            <span class="language-title">Favorite Programming Language</span>
+            <div class="category">
+              <label for="lang-dot-1">
+                <span class="lang-dot lang-one"></span>
+                <span class="language">Python</span>
+              </label>
+              <label for="lang-dot-2">
+                <span class="lang-dot lang-two"></span>
+                <span class="language">C++</span>
+              </label>
+              <label for="lang-dot-3">
+                <span class="lang-dot lang-three"></span>
+                <span class="language">Java</span>
+              </label>
+              <label for="lang-dot-4">
+                <span class="lang-dot lang-four"></span>
+                <span class="language">Kotlin</span>
+              </label>
+              <label for="lang-dot-5">
+                <span class="lang-dot lang-five"></span>
+                <span class="language">Javascript</span>
+              </label>
+            </div>
+          </div>
+          <div class="button" onclick="showModal()">
+            <input type="submit" value="Register">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
